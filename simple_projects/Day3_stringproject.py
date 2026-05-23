@@ -10,3 +10,5 @@ if choice==1 :
 elif choice==2 :
     print(text[::-1])  # text[start:stop:step] -1 is start from last character
 
+elif choice==3 :
+    print(text.lower())
