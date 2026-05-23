@@ -7,5 +7,6 @@ choice=int(input("enter a choice : "))
 if choice==1 :
     print(text.upper())
     
-if choice==2 :
+elif choice==2 :
     print(text[::-1])  # text[start:stop:step] -1 is start from last character
+
