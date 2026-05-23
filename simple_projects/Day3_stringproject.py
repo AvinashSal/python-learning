@@ -6,6 +6,7 @@ print("1.Uppercase")
 print("2.Reverse string")
 print("3.Lowercase")
 print("4.Vowel count")
+print("5.palindrome check")
 #taking user choice perform selected task
 choice=int(input("enter a choice : "))
 
@@ -26,3 +27,13 @@ elif choice==4 :
             count+=1
     
     print("vowel count : ",count)
+
+elif choice==5 :
+    reverse=text[::-1]
+    if text==reverse :
+        print("string is palindrome ")
+    else :
+        print("string is not palindrome ")
+        
+else :
+    print("Invalid choice")
