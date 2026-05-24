@@ -20,6 +20,12 @@ if choice==1 :
     animals.insert(position-1,add_anim)                   #not an index position so {position-1}
     print(animals)
 
+elif choice==2 :
+    print(animals)
+    remove_anim=int(input("enter the position of animal to remove :"))
+    # p=animals[remove_anim-1]
+    animals.remove(animals[remove_anim-1])     #user enter positon is +1 than index so {remove_anim-1}
+    print(animals)
 
 
 
