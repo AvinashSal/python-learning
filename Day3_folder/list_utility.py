@@ -27,6 +27,10 @@ elif choice==2 :
     animals.remove(animals[remove_anim-1])     #user enter positon is +1 than index so {remove_anim-1}
     print(animals)
 
-
+elif choice==3 :
+    print(animals)
+    animals.sort()
+    print(animals)
+    
 
 
