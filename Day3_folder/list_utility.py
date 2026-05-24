@@ -32,5 +32,7 @@ elif choice==3 :
     animals.sort()
     print(animals)
     
-
-
+elif choice==4 :
+    print(animals)
+    animals.reverse()
+    print(animals)
