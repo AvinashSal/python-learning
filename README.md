@@ -7,6 +7,8 @@ This repository contains my python practice and beginner projects
 - pyhton Basic
 - variables
 - input/output
+- string basic
+- list basic methods
 - Git/Github
 
 ## Author 
